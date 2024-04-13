@@ -75,7 +75,8 @@
     <div class="meme-block" id="memeBlock">
       
       <p class="text_top" style="<!-- Задание №3. Помещаем переменные в CSS -->">
-        <!-- Задание №2. Помещаем переменную с текстом -->
+        <p>{{text_top}}</p>
+        <p>{{text_bottom}}</p>
       </p>
 
       <img class="meme" src="{{ url_for('serve_images', path=selected_image) }}" alt="{{ selected_image }}">
